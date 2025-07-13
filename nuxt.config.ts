@@ -15,15 +15,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en",
       },
-      link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.svg" },
-        {
-          rel: "alternate",
-          type: "application/rss+xml",
-          href: "/rss",
-          title: "Forklore RSS Feed",
-        },
-      ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.svg" }],
     },
   },
   routeRules: {
